@@ -61,14 +61,15 @@ The SSD1306 compatible display library will be used if the selected OLED module 
 
 **PCB design** 
 
-A photo will be added here 
+<img width="816" height="490" alt="image" src="https://github.com/user-attachments/assets/28d5439a-d591-484b-82c6-cd6dcd9df2f6" />
+
 
 **schematics** 
 
-A photo will be added here 
+<img width="971" height="485" alt="image" src="https://github.com/user-attachments/assets/02251720-54a3-4c8d-ba7f-9a834c61efa5" />
 
 **3D Rendering** 
 
-A photo will be added here 
+<img width="767" height="466" alt="image" src="https://github.com/user-attachments/assets/f0b34130-ed8c-4194-bfc3-4012f3b743a9" />
 
 
