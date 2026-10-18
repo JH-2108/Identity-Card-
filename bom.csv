@@ -1,8 +1,14 @@
-Component,Quantity,Purpose,Vendor,Purchase Link,Unit Price (USD),Unit Price (MYR),Subtotal (USD),Subtotal (MYR)
-ESP32-C3 SuperMini,1,Microcontroller and USB programming,GI Electronic,https://www.gie.com.my/shop.php?action=wireless%2Fwifi%2Fesp32c3mini,4.00,18.00,4.00,18.00
-0.96-inch I2C OLED 128x64,1,Displays identity and project information,Low-cost compatible supplier,https://my.cytron.io/p-oled-rohs-i2c-0.96inch-128x64-blue-display,2.95,13.25,2.95,13.25
-6x6mm tactile push button,2,Switches between information pages,Low-cost component supplier,https://www.google.com/search?q=6x6mm+tactile+push+button+Malaysia,0.10,0.45,0.20,0.90
-Female pin headers,1 set,Removable connections for ESP32 and OLED,Electronics supplier,https://www.google.com/search?q=2.54mm+female+header+Malaysia,0.50,2.25,0.50,2.25
-Custom two-layer PCB,1,Main identity card carrier PCB,PCB manufacturer,https://jlcpcb.com,7.00,31.50,7.00,31.50
-PCB shipping allowance,1,Delivery of manufactured PCB,PCB manufacturer,https://jlcpcb.com,5.00,22.50,5.00,22.50
-TOTAL,,,,,,,"19.65","88.40"
+
+Item,Purpose,Quantity,Estimated Unit Cost (USD),Estimated Total (USD),CAD Model / Purchase Link,Notes
+ESP32-C3 SuperMini,Main microcontroller,1,3.50,3.50,https://grabcad.com/library?query=ESP32-C3%20Super%20Mini,Verify board revision and USB connector dimensions
+0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://grabcad.com/library/lithium-battery-3-7v-1,Use the correct OLED CAD model; this link is NOT the OLED model
+6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,,Match the PCB footprint
+Pin headers and connectors,PCB and module connections,1,0.50,0.50,,Confirm connector types and quantities
+Custom 2-layer PCB,Main circuit board,1,5.00,5.00,,Estimated manufacturing allowance
+3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://grabcad.com/danh.truong-6/models?page=1,Use actual purchased battery dimensions for enclosure design
+TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://grabcad.com/library/modulo-carga-tipo-c-bateria-de-litio-tp4056-18650-1,Verify protected OUT+ and OUT- terminals
+SPST slide power switch,Main power on/off,1,0.30,0.30,https://grabcad.com/library/on-off-switch-10,Confirm physical switch and PCB footprint match
+AP2112K-3.3 regulator,3.3V power regulation,1,0.30,0.30,,Recheck regulator suitability and ESP32 current requirements
+1uF capacitors,Regulator decoupling,2,0.10,0.20,,Confirm against regulator datasheet
+3D-printed enclosure,Protective card shell,1,0.00,0.00,,Print Legion cost and shipping not confirmed
+ESTIMATED SUBTOTAL,,,,"17.50",,Excludes shipping taxes and unconfirmed 3D printing costs
