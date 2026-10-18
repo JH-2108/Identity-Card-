@@ -1,14 +1,14 @@
 
-Item,Purpose,Quantity,Estimated Unit Cost (USD),Estimated Total (USD),CAD Model / Purchase Link,Notes
-ESP32-C3 SuperMini,Main microcontroller,1,3.50,3.50,https://grabcad.com/library?query=ESP32-C3%20Super%20Mini,Verify board revision and USB connector dimensions
-0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://grabcad.com/library/lithium-battery-3-7v-1,Use the correct OLED CAD model; this link is NOT the OLED model
-6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,,Match the PCB footprint
-Pin headers and connectors,PCB and module connections,1,0.50,0.50,,Confirm connector types and quantities
-Custom 2-layer PCB,Main circuit board,1,5.00,5.00,,Estimated manufacturing allowance
-3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://grabcad.com/danh.truong-6/models?page=1,Use actual purchased battery dimensions for enclosure design
-TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://grabcad.com/library/modulo-carga-tipo-c-bateria-de-litio-tp4056-18650-1,Verify protected OUT+ and OUT- terminals
-SPST slide power switch,Main power on/off,1,0.30,0.30,https://grabcad.com/library/on-off-switch-10,Confirm physical switch and PCB footprint match
-AP2112K-3.3 regulator,3.3V power regulation,1,0.30,0.30,,Recheck regulator suitability and ESP32 current requirements
-1uF capacitors,Regulator decoupling,2,0.10,0.20,,Confirm against regulator datasheet
-3D-printed enclosure,Protective card shell,1,0.00,0.00,,Print Legion cost and shipping not confirmed
+Item,Purpose,Quantity,Estimated Unit Cost (USD),Estimated Total (USD),Purchase Link,Notes
+ESP32-C3 SuperMini,Main microcontroller,1,3.50,3.50,https://shopee.com.my/ESP32-C3-SuperMini-Development-Board-with-WiFi-Bluetooth-Support-for-IoT-DIY-i.1588059071.42862001644,Verify board revision and pinout
+0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://shopee.com.my/search?keyword=0.96%20inch%20SSD1306%20128x64%20I2C%20OLED,Confirm resolution controller voltage and pin order
+6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,https://shopee.com.my/Tactile-Switch-Mini-Momentary-Push-Button-4-Pins-Tact-Switch-6mmx6mm-Arduino-PIC-PCB-i.82628181.40601321379,Match button height and PCB footprint
+Pin headers and connectors,PCB and module connections,1,0.50,0.50,https://shopee.com.my/search?keyword=2.54mm%20male%20female%20pin%20headers,Confirm pitch pin count and connector type
+Custom 2-layer PCB,Main circuit board,1,5.00,5.00,https://cart.jlcpcb.com/quote,Upload Gerber files to obtain the actual quote
+3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://shopee.com.my/product/22727342/8845188693,Confirm dimensions connector polarity and protection
+TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://shopee.com.my/product/1602560/7343182655,Verify protection circuit and safe charging current for the selected battery
+SPST slide power switch,Main power on/off,1,0.30,0.30,https://shopee.com.my/Mini-Slide-Switch-3-Pin-%28On-Off-Two-State%29-or-5-Pin-%28On-Off-On-Three-State%29-SPDT-ON-OFF-Switch-PCB-SS12D00-SS12D00G3-i.55645224.21534862680,Must use a matching slide-switch footprint; Omron B3F is momentary and cannot latch power on
+AP2112K-3.3 regulator,3.3V power regulation,1,0.30,0.30,https://www.digikey.my/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746,Confirm regulator is needed and power design is suitable before ordering
+1uF capacitors,Regulator decoupling,2,0.10,0.20,https://www.digikey.my/en/products?keywords=1uF%20ceramic%20capacitor,Match capacitance package voltage rating and regulator datasheet
+3D-printed enclosure,Protective card shell,1,0.00,0.00,https://hackclub.com/,Printing cost and shipping through Print Legion not confirmed
 ESTIMATED SUBTOTAL,,,,"17.50",,Excludes shipping taxes and unconfirmed 3D printing costs
