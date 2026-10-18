@@ -4,7 +4,7 @@ ESP32-C3 SuperMini,Main microcontroller,1,3.50,3.50,https://shopee.com.my/ESP32-
 0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://makerhub.my/product-category/display/,Confirm resolution controller voltage and pin order
 6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,https://makerhub.my/shop/electrical/tactile-button-momentary-switch-6mm-x-6mm-x-5mm-push-button-4-pin/,Match button height and PCB footprint
 Pin headers and connectors,PCB and module connections,1,0.50,0.50,https://my.element14.com/c/connectors/pin-headers?pitch-spacing=2.54mm,Confirm pitch and pin count
-Custom 2-layer PCB,Main circuit board,1,5.00,5.00,https://cart.jlcpcb.jp/quote,Upload Gerber files for actual quote
+Custom 2-layer PCB,Main circuit board,1,10.00,10.00,https://cart.jlcpcb.jp/quote,Upload Gerber files for actual quote
 3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://shopee.com.my/search?keyword=3.7V%20500mAh%20LiPo%20pouch%20battery,Confirm dimensions connector polarity and charging specifications
 TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://shopee.com.my/TP4056-Single-Cell-1A-Li-ION-Battery-Charger-Module-With-Protection-Micro-Mini-Type-C-USB-i.6674515.423627694,Verify protection and charging current
 SPST slide power switch,Main power on/off,1,0.30,0.30,https://shopee.com.my/Slide-Switch-SS12D00-SS12D10-SS12D11-3pin-1P2T-2-Position-toggle-switch-Handle-length-4MM-i.133036903.12547674444,Use a footprint matching the purchased switch
