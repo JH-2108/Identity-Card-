@@ -3,7 +3,7 @@ title: "E-ID"
 github: "https://github.com/JH-2108/Identity-Card-"
 description: "E-ID is a custom electronic identity card designed to display personal identification information and project details on a compact OLED screen. The project combines a custom-designed KiCAD PCB with an ESP32-C3 microcontroller, a 128x64 OLED display, and physical navigation buttons. I will design the schematic and PCB layout, manufacture the board, assemble the electronic components, and develop the firmware that allows users to navigate between different information pages. The goal is to create an affordable, reusable electronic badge while learning PCB designing, embedded programming, and hardware integration. "
 created_at: "2026-10-16"
-total_time: "4h"
+total_time: "5h 30m"
 ---
 
 # October 16, 2026: Wrote the README and BOM
@@ -34,8 +34,19 @@ PCB design
 
 Schematics design 
 
-![](https://fabricate.hackclub-assets.com/e55fd2a2ad9be0f8ce04b8a492553616d4504ec51120de9f3865940503f6d981/image-png/image.png)
+![](https://fabricate.hackclub-assets.com/448cbd9b5a6a89ccf4899a81507ad3229668b91b7b9e864c1f9fbe7c8986d6e4/image-png/image.png)
 
 3d rendered version
 
 **Total time spent: 2h 30m**
+
+# October 19, 2026 (entry 2): Firmware creation
+<!-- fabricate:entry 639 -->
+
+In order for the entire identity card to work, I had to create the firmware that will allow the buttons to do some actions when pressed. Hence I have coded the entire firmware in C++ language, it is not tested yet, as I have no way to test it now before creating the identity card, hence, once I receive all the parts I would move on to testing the project. 
+
+![](https://fabricate.hackclub-assets.com/20b78f407da590a87f538c2067cc2055154cd2873e44315df7b87350d7c92ca4/image-png/image.png)
+
+Firmware code
+
+**Total time spent: 1h 30m**
