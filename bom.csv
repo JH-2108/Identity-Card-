@@ -1,14 +1,13 @@
 
 Item,Purpose,Quantity,Estimated Unit Cost (USD),Estimated Total (USD),Purchase Link,Notes
 ESP32-C3 SuperMini,Main microcontroller,1,3.50,3.50,https://shopee.com.my/ESP32-C3-SuperMini-Development-Board-with-WiFi-Bluetooth-Support-for-IoT-DIY-i.1588059071.42862001644,Verify board revision and pinout
-0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://shopee.com.my/search?keyword=0.96%20inch%20SSD1306%20128x64%20I2C%20OLED,Confirm resolution controller voltage and pin order
-6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,https://shopee.com.my/Tactile-Switch-Mini-Momentary-Push-Button-4-Pins-Tact-Switch-6mmx6mm-Arduino-PIC-PCB-i.82628181.40601321379,Match button height and PCB footprint
-Pin headers and connectors,PCB and module connections,1,0.50,0.50,https://shopee.com.my/search?keyword=2.54mm%20male%20female%20pin%20headers,Confirm pitch pin count and connector type
-Custom 2-layer PCB,Main circuit board,1,5.00,5.00,https://cart.jlcpcb.com/quote,Upload Gerber files to obtain the actual quote
-3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://shopee.com.my/product/22727342/8845188693,Confirm dimensions connector polarity and protection
-TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://shopee.com.my/product/1602560/7343182655,Verify protection circuit and safe charging current for the selected battery
-SPST slide power switch,Main power on/off,1,0.30,0.30,https://shopee.com.my/Mini-Slide-Switch-3-Pin-%28On-Off-Two-State%29-or-5-Pin-%28On-Off-On-Three-State%29-SPDT-ON-OFF-Switch-PCB-SS12D00-SS12D00G3-i.55645224.21534862680,Must use a matching slide-switch footprint; Omron B3F is momentary and cannot latch power on
-AP2112K-3.3 regulator,3.3V power regulation,1,0.30,0.30,https://www.digikey.my/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746,Confirm regulator is needed and power design is suitable before ordering
-1uF capacitors,Regulator decoupling,2,0.10,0.20,https://www.digikey.my/en/products?keywords=1uF%20ceramic%20capacitor,Match capacitance package voltage rating and regulator datasheet
-3D-printed enclosure,Protective card shell,1,0.00,0.00,https://hackclub.com/,Printing cost and shipping through Print Legion not confirmed
-ESTIMATED SUBTOTAL,,,,"17.50",,Excludes shipping taxes and unconfirmed 3D printing costs
+0.96-inch SSD1306 OLED 128x64 I2C,Identity card display,1,2.50,2.50,https://makerhub.my/product-category/display/,Confirm resolution controller voltage and pin order
+6x6mm tactile push button,Previous and next page controls,2,0.10,0.20,https://makerhub.my/shop/electrical/tactile-button-momentary-switch-6mm-x-6mm-x-5mm-push-button-4-pin/,Match button height and PCB footprint
+Pin headers and connectors,PCB and module connections,1,0.50,0.50,https://my.element14.com/c/connectors/pin-headers?pitch-spacing=2.54mm,Confirm pitch and pin count
+Custom 2-layer PCB,Main circuit board,1,5.00,5.00,https://cart.jlcpcb.jp/quote,Upload Gerber files for actual quote
+3.7V 500mAh LiPo pouch battery,Portable power supply,1,4.00,4.00,https://shopee.com.my/search?keyword=3.7V%20500mAh%20LiPo%20pouch%20battery,Confirm dimensions connector polarity and charging specifications
+TP4056 charger module with protection,Battery charging,1,1.00,1.00,https://shopee.com.my/TP4056-Single-Cell-1A-Li-ION-Battery-Charger-Module-With-Protection-Micro-Mini-Type-C-USB-i.6674515.423627694,Verify protection and charging current
+SPST slide power switch,Main power on/off,1,0.30,0.30,https://shopee.com.my/Slide-Switch-SS12D00-SS12D10-SS12D11-3pin-1P2T-2-Position-toggle-switch-Handle-length-4MM-i.133036903.12547674444,Use a footprint matching the purchased switch
+AP2112K-3.3 regulator,3.3V power regulation,1,0.30,0.30,https://www.digikey.my/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746,Confirm regulator is required and power design is suitable
+1uF ceramic capacitors,Regulator decoupling,2,0.10,0.20,https://www.digikey.my/en/products?keywords=1uF%20ceramic%20capacitor,Match package and regulator datasheet
+ESTIMATED SUBTOTAL,,,,17.50,,Excludes shipping and taxes
