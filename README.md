@@ -66,7 +66,7 @@ The SSD1306 compatible display library will be used if the selected OLED module 
 
 **schematics** 
 
-<img width="971" height="485" alt="image" src="https://github.com/user-attachments/assets/02251720-54a3-4c8d-ba7f-9a834c61efa5" />
+<img width="1050" height="547" alt="image" src="https://github.com/user-attachments/assets/f7a3526b-627b-459a-8f19-292c3cd84575" />
 
 **3D Rendering** 
 
